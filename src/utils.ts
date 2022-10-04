@@ -248,7 +248,7 @@ function generateToc(contentHtml: string, tocLevel: number) {
 
   const tocHTML = `
   <div class="toc-page" style="page-break-after: always;">
-    <h1 class="toc-header">Table of contents:</h1>
+    <h1 class="toc-header">Table des matières</h1>
     <ul class="toc-list">${toc}</ul>
   </div>
   `;
