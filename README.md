@@ -1,6 +1,6 @@
 ## ℹ️ Note
 
-This is a fork of the much appreciated [mr-pdf](https://github.com/kohheepeace/mr-pdf). Our fork is just to ease maintenance for use with our Docusaurus sites, not the other systems that mr-pdf supports.
+This is a fork docu-pdf which is a fork of the much appreciated [mr-pdf](https://github.com/kohheepeace/mr-pdf). Their fork was just to ease maintenance for use with our Docusaurus sites, not the other systems that mr-pdf supports. This fork simply replaced the hard-coded TOC tile to "Table des matières" for French pdfs.
 
 ## About docu-pdf
 
@@ -9,7 +9,7 @@ This is a command line tool for creating PDFs from documentation sites built wit
 ## Usage
 
 ```shell
-npx docu-pdf https://docs.bloomlibrary.org/
+npx docu-pdf-fr https://docs.bloomlibrary.org/
 ```
 
 ## CLI Options
